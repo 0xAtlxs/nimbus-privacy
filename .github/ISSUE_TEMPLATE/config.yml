@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support and FAQ
+    url: https://0xatlxs.github.io/nimbus-privacy/support/
+    about: Answers to common questions (ringtones, Spotify, notifications, Keep PC awake, auto pickup).
+  - name: Privacy policy
+    url: https://0xatlxs.github.io/nimbus-privacy/
+    about: How Nimbus handles your data.

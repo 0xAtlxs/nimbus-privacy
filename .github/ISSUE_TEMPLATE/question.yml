@@ -1,0 +1,21 @@
+name: Question or idea
+description: Ask a question or suggest an improvement.
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue is public.** Do **not** include colleague names, phone numbers, call data or personal screenshots. / **Dit issue is openbaar.** Zet er geen persoonlijke gegevens in.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: My question contains no colleague names, phone numbers, call data or personal information.
+          required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question or idea
+    validations:
+      required: true
